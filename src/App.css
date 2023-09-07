@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
 .App {
   text-align: center;
 }
@@ -23,11 +29,188 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.cont-header{
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+}
 .App-link {
   color: #61dafb;
 }
 
+.cont-btn{
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  background-color: skyblue;
+  border: 1px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+button:hover{
+  padding: 10px 15px;
+}
+ul {
+  list-style: none;
+  display: inline;
+}
+
+label,input{
+  margin: 10px 0;
+}
+textarea,
+button {
+  display: block;
+
+}
+
+header {
+  background-color:rgb(137, 172, 238);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+header img {
+  width: 90px;
+}
+
+header ul li {
+  cursor: pointer;
+}
+
+header input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.navbar-menu .navbar-item {
+  padding: 0 2rem;
+}
+
+body {
+  background-color: cornflowerblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+h1{
+  font-size: 65px;
+  color: white;
+  padding: 10px;
+  letter-spacing: 8pt;
+  z-index:1;  
+}
+
+p{
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+}
+.cuadro {
+  background-color: rgb(245, 242, 238);
+  width: 300px;
+  text-align: center;
+  margin: 120px auto;
+  padding: 20px;
+  box-shadow: 3px 2px 42px 8px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+ 
+
+}
+
+.btn-login {
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 120px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color:lightskyblue !important;
+  margin-top: 200px;
+ 
+}
+.cont-footer{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+}
+.cont-footer div{
+  margin-bottom: 10px;
+  width: 150px;
+}
+.cont-footer div h5{
+padding: 6px;
+border: 1px solid grey;
+background-color:cornflowerblue;
+text-align: center;
+}
+.cont-footer div ul, .cont-footer div p{
+  margin-top: 10px;
+}
+.cont-copy{
+  padding-top: 20px;
+  text-align: center;
+}
+
+@media(max-width:880px){
+  
+  h1{
+      font-size: 35px;
+          }
+  .prf-title{
+font-size: 35px;
+  }
+  .cont-cards{
+      grid-template-columns: 1fr 1fr;
+  }
+  .st-conts form{
+      width: 100px;
+  } 
+  .cont-footer{
+      flex-direction: column;        
+  }
+ 
+  .cont-footer div{
+      text-align: center;
+      margin-bottom: 10px;
+      width: 100px;
+  }
+}
+
+@media(max-width:480px){
+  h1{
+      font-size: 35px;
+          }
+  .prf-title{
+font-size: 35px;
+  }
+  .cont-cards{
+      grid-template-columns: 1fr;
+  }
+  .st-conts form{
+      width: 100px;
+      
+  
+  }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

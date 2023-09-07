@@ -15,7 +15,7 @@ hay que desarrollar los métodos correspondientes a las siguientes operaciones:
 
 * Validación de ingreso por persona. (home, que redirige a su sección)
 
-* Sección Profesores: 
+* [Sección Profesores: ]
     • Matriculación de un estudiante en la materia "X"... (X - podría ser una lista desplegable)
     • Cargar notas en una tabla (materia), con lo siguiente:
         ID_materia, ID_alumno (automático), un nombre, tres calificaciones numéricas enteras.
@@ -36,6 +36,5 @@ hay que desarrollar los métodos correspondientes a las siguientes operaciones:
 * Todas las secciones tendrán un formulario, para comunicarse con la rectoría.
 
 ==================================================
-### Colaboradores: Si resolvemos esto, podremos acondicionarlo a cualquier proyecto, cambiando la funcionalidad
-
+### Colaboradores: Si resolvemos esto, podremos acondicionarlo a cualquier proyecto, cambiando la funcionalidad de acuerdo a la necesidad de cada página o aplicación.
 ==================================================
