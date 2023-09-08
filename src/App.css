@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: monospace;
 }
+
 .App {
   text-align: center;
 }
@@ -29,23 +30,26 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.cont-header{
+
+.cont-header {
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: auto;
 }
+
 .App-link {
   color: #61dafb;
 }
 
-.cont-btn{
+.cont-btn {
   padding: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 button {
   background-color: skyblue;
   border: 1px solid black;
@@ -54,18 +58,22 @@ button {
   border-radius: 10px;
 
 }
-button:hover{
+
+button:hover {
   padding: 10px 15px;
 }
+
 ul {
   list-style: none;
-  display:flex;
+  display: flex;
   gap: 10px;
 }
 
-label,input{
+label,
+input {
   margin: 10px 0;
 }
+
 textarea,
 button {
   display: block;
@@ -73,17 +81,17 @@ button {
 }
 
 header {
-  background-color:rgb(137, 172, 238);
+  background-color: rgb(137, 172, 238);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.cont-header{
+.cont-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:lightskyblue;
+  background-color: lightskyblue;
   gap: 10px;
 }
 
@@ -101,29 +109,31 @@ header input {
   border-radius: 5px;
   border: 1px solid grey;
 }
+
 .navbar-menu .navbar-item {
   padding: 0 2rem;
 }
 
 body {
   background-color: cornflowerblue;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
-h1{
+h1 {
   font-size: 65px;
   color: white;
   padding: 10px;
   letter-spacing: 8pt;
-  z-index:1;  
+  z-index: 1;
 }
 
-p{
+p {
   font-size: 20px;
   color: black;
   padding: 10px;
 }
+
 .cuadro {
   background-color: rgb(245, 242, 238);
   width: 300px;
@@ -132,7 +142,7 @@ p{
   padding: 20px;
   box-shadow: 3px 2px 42px 8px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
- 
+
 
 }
 
@@ -145,80 +155,94 @@ p{
 }
 
 footer {
-  background-color:cornflowerblue !important;
   margin-top: 200px;
- 
 }
+
 .cont-footer {
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  background-color: lightskyblue !important;
 }
 
-.cont-footer div{
+.cont-footer div {
   margin-bottom: 10px;
   width: 150px;
-  background-color:lightskyblue !important;
+  background-color: lightskyblue cornflowerblue !important;
 }
-.cont-footer div h5{
-padding: 6px;
-border: 1px solid grey;
 
-text-align: center;
+.cont-footer div h5 {
+  padding: 6px;
+  border: 1px solid grey;
+
+  text-align: center;
 }
-.cont-footer div ul, .cont-footer div p{
+
+.cont-footer div ul,
+.cont-footer div p {
   margin-top: 10px;
 }
-.cont-copy{
+
+.cont-copy {
   padding-top: 20px;
   text-align: center;
 }
 
-@media(max-width:880px){
-  
-  h1{
-      font-size: 35px;
-          }
-  .prf-title{
-font-size: 35px;
+@media(max-width:880px) {
+
+  h1 {
+    font-size: 35px;
   }
-  .cont-cards{
-      grid-template-columns: 1fr 1fr;
+
+  .prf-title {
+    font-size: 35px;
   }
-  .st-conts form{
-      width: 100px;
-  } 
-  .cont-footer{
-      flex-direction: column;        
+
+  .cont-cards {
+    grid-template-columns: 1fr 1fr;
   }
- 
-  .cont-footer div{
-      text-align: center;
-      margin-bottom: 10px;
-      width: 100px;
+
+  .st-conts form {
+    width: 100px;
+  }
+
+  .cont-footer {
+    flex-direction: column;
+  }
+
+  .cont-footer div {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100px;
   }
 }
 
-@media(max-width:480px){
-  h1{
-      font-size: 35px;
-          }
-  .prf-title{
-font-size: 35px;
+@media(max-width:480px) {
+  h1 {
+    font-size: 35px;
   }
-  .cont-cards{
-      grid-template-columns: 1fr;
+
+  .prf-title {
+    font-size: 35px;
   }
-  .st-conts form{
-      width: 100px;
-      
-  
+
+  .cont-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .st-conts form {
+    width: 100px;
+
+
   }
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
