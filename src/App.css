@@ -83,6 +83,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color:lightskyblue;
   gap: 10px;
 }
 
@@ -144,24 +145,25 @@ p{
 }
 
 footer {
-  background-color:lightskyblue !important;
+  background-color:cornflowerblue !important;
   margin-top: 200px;
  
 }
-.cont-footer{
+.cont-footer {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-
 }
+
 .cont-footer div{
   margin-bottom: 10px;
   width: 150px;
+  background-color:lightskyblue !important;
 }
 .cont-footer div h5{
 padding: 6px;
 border: 1px solid grey;
-background-color:cornflowerblue;
+
 text-align: center;
 }
 .cont-footer div ul, .cont-footer div p{
