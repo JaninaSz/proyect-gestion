@@ -24,8 +24,8 @@ hay que desarrollar los métodos correspondientes a las siguientes operaciones:
 * Sección Alumnos: de consulta solamente, 
     • Tendrá un buscador del ID_materia que le mostrará en pantalla: 
     • las notas obtenidas, el promedio y la condición que se encuentra (aprobado/desaprobado)
-    _Adicional_ barra de navegación de materias (anterior-siguiente)
-    _Opcional_ Resultados finales: en un iframe mostrar un gráfico de barras con todas sus materias y promedios.
+   - _ _Adicional_ _ barra de navegación de materias (anterior-siguiente)
+   - _ _Opcional_ _ Resultados finales: en un iframe mostrar un gráfico de barras con todas sus materias y promedios.
     
 
 * Sección Maestranza: el empleado del personal de servicio, tendrá una vista de tarjetas o lista de 
