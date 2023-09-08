@@ -30,7 +30,7 @@
   color: white;
 }
 .cont-header{
-    
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,7 +59,8 @@ button:hover{
 }
 ul {
   list-style: none;
-  display: inline;
+  display:flex;
+  gap: 10px;
 }
 
 label,input{
@@ -91,6 +92,7 @@ header img {
 
 header ul li {
   cursor: pointer;
+  list-style: none;
 }
 
 header input {
