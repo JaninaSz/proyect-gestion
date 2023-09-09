@@ -16,21 +16,21 @@ hay que desarrollar los métodos correspondientes a las siguientes operaciones:
 * Validación de ingreso por persona. (home, que redirige a su sección)
 
 * `[Sección Profesores: ]`
-    • Matriculación de un estudiante en la materia "X"... (X - podría ser una lista desplegable)
-    • Cargar notas en una tabla (materia), con lo siguiente:
+    - Matriculación de un estudiante en la materia "X"... (X - podría ser una lista desplegable)
+    - Cargar notas en una tabla (materia), con lo siguiente:
         ID_materia, ID_alumno (automático), un nombre, tres calificaciones numéricas enteras.
     Nota: Al menos, cargar tres materias.
 
 * `Sección Alumnos:` de consulta solamente, 
-    • Tendrá un buscador del ID_materia que le mostrará en pantalla: 
-    • las notas obtenidas, el promedio y la condición que se encuentra (aprobado/desaprobado)
+    - Tendrá un buscador del ID_materia que le mostrará en pantalla: 
+    - las notas obtenidas, el promedio y la condición que se encuentra (aprobado/desaprobado)
    - _ _Adicional_ _ barra de navegación de materias (anterior-siguiente)
    - _ _Opcional_ _ Resultados finales: en un iframe mostrar un gráfico de barras con todas sus materias y promedios.
     
 
 * `Sección Maestranza:` el empleado del personal de servicio, tendrá una vista de tarjetas o lista de 
-    • productos de limmpieza de la cual podrá realizar el pedido correspondiente.
-    • Diligencias: Hacer entrega de las invitaciones al acto.
+    - productos de limmpieza de la cual podrá realizar el pedido correspondiente.
+    - Diligencias: Hacer entrega de las invitaciones al acto.
     Usando la Api de Google maps, marcar tres ubicaciones distintas a partir de las direcciones (no una ruta).
 
 * Todas las secciones tendrán un formulario, para comunicarse con la rectoría.
